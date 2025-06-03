@@ -1,0 +1,126 @@
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: white; 
+    font-family: sans-serif; 
+    overflow: hidden; 
+}
+
+#splash { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    background: url('../bilder/start.png') no-repeat center center; 
+    background-size: auto 100%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#splash-banner { 
+    width: 90%; 
+    background: rgba(0,0,0,0.5); 
+    color: white; 
+    text-align: center; 
+    padding: 2em; 
+    font-size: 3em; 
+    font-weight: bold; 
+    position: relative; 
+    top: 100px; 
+}
+
+#start-button { 
+    margin-top: 100px; 
+    padding: 1em 2em; 
+    font-size: 1.5em; 
+    background: black; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+}
+
+#video-container { 
+    display: none; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+}
+
+video { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+    background: white; 
+}
+
+#question-container { 
+    display: none; 
+    position: absolute; 
+    bottom: 5%; 
+    left: 5%; 
+    width: 90%; 
+    z-index: 5; 
+}
+
+.question { 
+    font-size: 1.5em; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+.option-button { 
+    width: 100%; 
+    padding: 1em; 
+    font-size: 1.2em; 
+    margin: 5px 0; 
+    background: #eee; 
+    border: none; 
+    cursor: pointer; 
+    text-align: left; 
+}
+
+#makingof-button, #show-image-button { 
+    display: none; 
+    position: absolute; 
+    bottom: 10%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 1em 2em; 
+    font-size: 1.2em; 
+    background: black; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    z-index: 5; 
+}
+
+#makingof-image { 
+    display: none; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    max-width: 90%; 
+    max-height: 90%; 
+    z-index: 5; 
+    border: 5px solid #333; 
+}
+
+#log { 
+    position: absolute; 
+    top: 1em; 
+    right: 1em; 
+    background: rgba(0,0,0,0.1); 
+    padding: 1em; 
+    font-size: 0.9em; 
+    max-width: 30%; 
+    overflow: auto; 
+    max-height: 90vh; 
+} 

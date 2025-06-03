@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interaktive Video Story</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="splash">
+    <div id="splash-banner">Verbunden: Mehr als nur ein Klick</div>
+    <button id="start-button">Start</button>
+  </div>
+
+  <div id="video-container">
+    <video id="video" autoplay muted></video>
+    <div id="question-container">
+      <div class="question" id="question-text"></div>
+      <div id="options"></div>
+    </div>
+    <button id="makingof-button">Making Of</button>
+    <button id="show-image-button">Extras</button>
+    <img id="makingof-image" src="bilder/makingof.jpg" alt="Making Of">
+    <div id="log"></div>
+  </div>
+
+  <!-- Load modules in correct dependency order -->
+  <script src="js/videoData.js"></script>
+  <script src="js/gameState.js"></script>
+  <script src="js/domElements.js"></script>
+  <script src="js/uiController.js"></script>
+  <script src="js/questionHandler.js"></script>
+  <script src="js/videoPlayer.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
