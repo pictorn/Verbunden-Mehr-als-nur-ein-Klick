@@ -89,7 +89,7 @@ und ist ohne Prüfung der Midjourney-Nutzungsbedingungen nicht empfohlen.
 Dieses Projekt wurde nicht allein gebaut – und wäre ohne Unterstützung nicht das, was es ist.
 
 ### ✍️ Redaktionelle Unterstützung  
-- **ABC**  
+- **Alexandra Ndolo**  
   Für das sorgfältige Redigieren der Texte und die sprachliche Klarheit, die dieses Projekt zugänglich gemacht haben.
 
 
